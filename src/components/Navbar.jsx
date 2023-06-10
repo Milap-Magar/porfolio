@@ -23,20 +23,20 @@ const Navbar = () => {
               </div>
           </div>
           <div className="font-mono">
-            <nav  className={`flex md:flex-row flex-col items-center justify-center md:pb-0 pb-12 absolute md:static md:bg-slate-900 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+            <nav  className={`flex md:flex-row flex-col items-center justify-center md:pb-0 pb-12 absolute md:static md:bg-slate-900 md:z-auto z-[10] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${open ? 'top-16':'top-[-490px]'} bg-slate-200 md:bg-slate-900`}>
               <div className="px-4 py-10 md:py-4 md:my-0">
                 <a href="/contact">
-                  <h1 className="text-white hover:text-amber-500">Contact</h1>
+                  <h1 className="text-black md:text-white hover:text-amber-500">Contact</h1>
                 </a>
               </div>
               <div className="px-4 py-10 md:py-4 md:my-0">
                 <a href="/works">
-                  <h1 className="text-white hover:text-amber-500">Works</h1>
+                  <h1 className="text-black md:text-white hover:text-amber-500">Works</h1>
                 </a>
               </div>
               <div className="px-4 py-10 md:py-4 md:my-0">
                 <a href="/about">
-                  <h1 className="text-white hover:text-amber-500">About Me</h1>
+                  <h1 className="text-black md:text-white hover:text-amber-500">About Me</h1>
                 </a>
               </div>
             </nav>

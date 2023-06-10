@@ -1,5 +1,8 @@
 import React from "react";
-import { Navbar, HomePage, Footer, Image } from "../components";
+import { Navbar, HomePage, Footer } from "../components";
+import Contact from "./Contact";
+import About from "./About";
+import Works from "./Works";
 
 const Home = () => {
   return (
@@ -8,6 +11,9 @@ const Home = () => {
         <Navbar />
         <div>
           <HomePage />
+          <Contact />
+          <Works />
+          <About />
         </div >
         <Footer />
       </div>
