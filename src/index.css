@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+p{
+  font-family: 'Croissant One', cursive;
+}
 h2{
   font-family: 'Bagel Fat One', cursive;
 }

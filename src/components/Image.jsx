@@ -23,7 +23,7 @@ const Image = () => {
     <>
       <div className="w-screen h-screen">
           <div>
-            <Img src={ moon } alt="assets/moon.png" className={`md:w-3/4 md:h-3/4 md:top-20 md:left-96 w-80 h-80 left-0 top-72`} />
+            <Img src={ moon } alt="assets/moon.png" className={`md:w-3/4 md:h-3/4 md:top-20 md:left-96 w-96 h-96 right-0 bottom-0`} />
           </div>
       </div>
     </>
