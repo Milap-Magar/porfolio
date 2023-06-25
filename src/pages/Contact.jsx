@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import hero from "../assets/hero1.png";
+import hero2 from "../assets/hero2.png";
 
 const About = () => {
   return (
@@ -12,11 +11,13 @@ const About = () => {
         <div>
           {/* image div */}
           <div className='md:flex md:justify-center md:items-center md:right-4 flex justify-start items-start bg-slate-500'>
+              <img src={ hero2 } alt="assets/hero.img" className='md:w-96 w-44 '/>
               <div className=''>
-                <h3 className='md:text-lg md:flex md:items-start md:justify-start flex justify-center items-center text-xs md:pl-32 pl-2'>Hello, I'm Milap:</h3>
-                <p className='md:text-lg md:flex md:items-start md:justify-start text-xs font-thin md:pl-32 pl-2'>A passionate web developer and designer. With a keen eye for aesthetics and a love for clean, user-friendly and reusable designs</p>
+                <h3 className='md:text-lg md:flex md:items-start md:justify-start flex justify-center items-center text-xs md:pl-32 pl-2'>Milap Magar</h3>
+                <p className='md:text-lg md:flex md:items-start md:justify-start text-xs font-thin md:pl-32 pl-2'>Gmail: readonlypls@gmail.com</p>
+                <p className='md:text-lg md:flex md:items-start md:justify-start text-xs font-thin md:pl-32 pl-2'>Linkedin: Milap Magar</p>
+                <p className='md:text-lg md:flex md:items-start md:justify-start text-xs font-thin md:pl-32 pl-2'>Facebook: Milap Magar</p>
               </div>
-              <img src={ hero } alt="assets/hero.img" className='md:w-2/4 w-44 '/>
           </div>
         </div>
       </div>
